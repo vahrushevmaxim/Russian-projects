@@ -1,0 +1,408 @@
+.header {
+	background: url("../image/backgroundHeader.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 324px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav-logo {
+	padding-top: 20px;
+}
+
+.header__nav-burger {
+	padding-top: 30px;
+}
+
+.header__content {
+	padding-top: 112px;
+	text-align: center;
+
+}
+
+.header__content-title {
+	font-size: 64px;
+	line-height: 95px;
+	margin: 0 auto;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	max-width: 886px;
+
+}
+
+.header__content-subtitle {
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.about {
+	margin: -146px 0 0 0;
+}
+
+.about__items {
+	display: flex;
+	padding: 57px 130px;
+	background: #F7F7F7;
+	margin-left: -15px;
+	margin-right: -15px;
+
+}
+
+.about__items-item {
+	flex: 0 1 25%;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+.about__items-date {
+	font-size: 72px;
+	line-height: 107px;
+	text-transform: uppercase;
+	color: #F7654A;
+}
+
+.about__items-year {
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #000000;
+	display: block;
+}
+
+.about__items-where {
+	font-size: 18px;
+	line-height: 27px;
+	color: #999999;
+	display: block;
+}
+
+.progress--indent {
+	margin-bottom: 120px;
+}
+
+.progress__wrapper {
+	padding-top: 100px;
+
+}
+
+.progress__title {
+	color: #404149;
+	text-align: center;
+	line-height: 53px;
+	margin-bottom: 50px;
+
+}
+
+.progress__columns {
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+
+}
+
+.progress__column {
+	flex: 0 1 33.333%;
+	padding: 0 15px;
+
+}
+
+.progress__wrapper-projection {
+	margin-bottom: 45px;
+}
+
+.progress__projection {
+	width: 100%;
+	min-height: 380px;
+	display: block;
+}
+
+.progress__decoration {
+	margin-bottom: 15px;
+}
+
+.progress__subtitle {
+	font-size: 24px;
+	line-height: 36px;
+	color: #404149;
+	margin-bottom: 15px
+}
+
+.progress__description {
+	font-size: 16px;
+	line-height: 22px;
+	color: #999999;
+}
+
+.services__wrapper {
+	padding-top: 150px;
+}
+
+.services__title {
+	text-align: center;
+	line-height: 53px;
+	color: #000000;
+}
+
+.services__columns {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-top: 66px;
+}
+
+.services__column {
+	flex: 0 1 33.333%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 30px;
+}
+
+.services__column-item {
+	background: #F7F7F7;
+	padding: 59px 92px 59px 86px;
+	text-align: center;
+
+}
+
+.services__text {
+	display: block;
+	font-size: 21px;
+	line-height: 31px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.portfolio {
+	padding-top: 130px;
+}
+
+.portfolio__wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+
+.portfolio__work {
+	flex: 0 1 25%;
+}
+
+.portfolio__photo {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.response__wrapper {
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+.response__title {
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+	color: #000000;
+}
+
+.response__item {
+	margin-bottom: 30px;
+}
+
+.response__text {
+	font-size: 24px;
+	line-height: 36px;
+	color: #F7654A;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.response__paragraph {
+	font-size: 16px;
+	line-height: 22px;
+	color: #999999;
+	max-width: 697px;
+}
+
+.response__text.open::before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-image: url(../image/trigon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 15px;
+	transition: .3s linear;
+	transform: rotate(-90deg);
+}
+
+.response__text.hidden::before {
+	content: "";
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-image: url(../image/trigon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 15px;
+	transition: .3s linear;
+}
+
+.response__text.hidden+.response__paragraph {
+	display: none;
+}
+
+.partners {
+	background: #404149;
+
+}
+
+.partners__wrapper {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.partners__title {
+	line-height: 53px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.partners__items {
+	display: flex;
+	margin-left: -32px;
+	margin-right: -32px;
+
+}
+
+.partners__item {
+	flex: 0 1 20%;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+.partners__logo {
+	max-width: 100%;
+	display: block;
+}
+
+.reviews__wrapper {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.reviews__title {
+	line-height: 53px;
+	color: #000000;
+	margin-bottom: 64px;
+	text-align: center;
+}
+
+.reviews__columns {
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.reviews__column {
+	flex: 0 1 33.333%;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.reviews__inner {
+	background-color: #F7F7F7;
+	padding: 38px 30px 38px 30px;
+	margin-bottom: 20px;
+}
+
+.reviews__foto {
+	margin-bottom: 10px;
+}
+
+.reviews__comment {
+	font-size: 14px;
+	line-height: 21px;
+	color: #999999;
+}
+
+.reviews__author {
+	font-size: 18px;
+	line-height: 31px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.reviews__author-company {
+	color: #F7654A;
+}
+
+.contacts__wrapper {
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.contacts__title {
+	line-height: 53px;
+	color: #000000;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.contacts__columns {
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.contacts__column {
+	flex: 0 1 25%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.contacts__icon {
+	display: block;
+	margin: 0 auto 26px;
+	height: 40px;
+}
+
+.contacts__link {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 36px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer {
+	background-color: #404149;
+}
+
+.footer__wrapper {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__text {
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
